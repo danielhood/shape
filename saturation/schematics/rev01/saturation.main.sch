@@ -1091,7 +1091,9 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.4064" drill="0">
+</class>
+<class number="1" name="power" width="0.8128" drill="0">
 </class>
 </classes>
 <parts>
@@ -1108,16 +1110,16 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="P-2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
-<part name="S3" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DS01" device="" package3d_urn="urn:adsk.eagle:package:27201/2"/>
-<part name="S1" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DS01" device="" package3d_urn="urn:adsk.eagle:package:27201/2"/>
-<part name="S2" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DS01" device="" package3d_urn="urn:adsk.eagle:package:27201/2"/>
+<part name="S3" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DS01" device="" package3d_urn="urn:adsk.eagle:package:27201/2" value="S3"/>
+<part name="S1" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DS01" device="" package3d_urn="urn:adsk.eagle:package:27201/2" value="S1"/>
+<part name="S2" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DS01" device="" package3d_urn="urn:adsk.eagle:package:27201/2" value="S2"/>
 <part name="R9" library="_common" deviceset="R" device="" value="10K"/>
 <part name="R10" library="_common" deviceset="R" device="" value="10K"/>
 <part name="R11" library="_common" deviceset="R" device="" value="22K"/>
 <part name="R7" library="_common" deviceset="R" device="" value="2.2K"/>
 <part name="R6" library="_common" deviceset="R" device="" value="1M"/>
 <part name="R2" library="_common" deviceset="R" device="" value="10K"/>
-<part name="R3" library="_common" deviceset="R" device=""/>
+<part name="R3" library="_common" deviceset="R" device="" value="22K"/>
 <part name="C6" library="_common" deviceset="CC-US" device="025-024X044" value="2.2nF"/>
 <part name="C7" library="_common" deviceset="CC-US" device="025-024X044" value="22nF"/>
 <part name="J2" library="_common" deviceset="JACK-M" device="" value="OUT"/>
@@ -1130,7 +1132,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="R5" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K"/>
 <part name="R8" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K"/>
 <part name="R12" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K"/>
-<part name="R13" library="_common" deviceset="R" device=""/>
+<part name="R13" library="_common" deviceset="R" device="" value="10K"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="C8" library="_common" deviceset="CE-US" device="E5-8.5" value="100uF"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
@@ -1148,7 +1150,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P-3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2" value="PWR"/>
 <part name="P-1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
@@ -1379,8 +1381,8 @@ FILTER</text>
 <attribute name="VALUE" x="-2.54" y="25.4" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="JP1" gate="A" x="-48.26" y="48.26" smashed="yes" rot="R180">
-<attribute name="NAME" x="-41.91" y="37.465" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-41.91" y="63.5" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="-41.91" y="40.005" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-49.53" y="58.42" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P-1" gate="1" x="-60.96" y="35.56" smashed="yes">
 <attribute name="VALUE" x="-63.5" y="33.02" size="1.778" layer="96" rot="R90"/>
@@ -1454,7 +1456,7 @@ FILTER</text>
 <junction x="137.16" y="40.64"/>
 </segment>
 </net>
-<net name="0V" class="0">
+<net name="0V" class="1">
 <segment>
 <pinref part="GND13" gate="1" pin="0V"/>
 <pinref part="S3" gate="G$1" pin="1"/>
@@ -1556,7 +1558,7 @@ FILTER</text>
 <junction x="68.58" y="53.34"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="1">
 <segment>
 <pinref part="IC1" gate="P" pin="V+"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
@@ -1582,7 +1584,7 @@ FILTER</text>
 <junction x="-53.34" y="53.34"/>
 </segment>
 </net>
-<net name="-12V" class="0">
+<net name="-12V" class="1">
 <segment>
 <pinref part="IC1" gate="P" pin="V-"/>
 <pinref part="P-2" gate="1" pin="-12V"/>
@@ -1761,6 +1763,10 @@ FILTER</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,-27.94,53.34,IC1P,V+,+12V,,,"/>
+<approved hash="104,1,-27.94,38.1,IC1P,V-,-12V,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
