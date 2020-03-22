@@ -1080,7 +1080,7 @@ Mors</description>
 <part name="R11" library="_common" deviceset="R" device="" value="22K"/>
 <part name="R7" library="_common" deviceset="R" device="" value="2.2K"/>
 <part name="R6" library="_common" deviceset="R" device="" value="1M"/>
-<part name="R2" library="_common" deviceset="R" device="" value="10K"/>
+<part name="R2" library="_common" deviceset="R" device="" value="22K"/>
 <part name="R3" library="_common" deviceset="R" device="" value="22K"/>
 <part name="C6" library="_common" deviceset="CC-US" device="025-024X044" value="2.2nF"/>
 <part name="C7" library="_common" deviceset="CC-US" device="025-024X044" value="22nF"/>
@@ -1125,11 +1125,12 @@ Mors</description>
 Line-Level IN/OUT
 
 Based on: http://zadvitsky.com/index.php/studio-devices/tape-saturation-compressor.html</text>
-<text x="35.56" y="68.58" size="1.778" layer="97">PRE-FILTER</text>
-<text x="83.82" y="71.12" size="1.778" layer="97">POST
-FILTER</text>
-<text x="2.54" y="96.52" size="1.778" layer="97">INPUT TRIM</text>
-<text x="116.84" y="66.04" size="1.778" layer="97">OUT GAIN</text>
+<text x="35.56" y="66.04" size="1.778" layer="97">PRE-FILTER
+DRIVE</text>
+<text x="78.74" y="73.66" size="1.778" layer="97">POST-FILTER
+AMOUNT</text>
+<text x="5.08" y="96.52" size="1.778" layer="97">INPUT ATTEN</text>
+<text x="116.84" y="66.04" size="1.778" layer="97">OUTUT GAIN</text>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="58.42" y="53.34" smashed="yes">
