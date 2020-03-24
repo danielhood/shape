@@ -924,8 +924,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="RV4" library="_common" deviceset="R-VAR-PANEL" device="" value="10K LIN"/>
 <part name="RV1" library="_common" deviceset="R-VAR-PANEL" device="" value="50K LOG"/>
 <part name="RV3" library="_common" deviceset="R-VAR-PANEL" device="" value="50K LOG"/>
-<part name="R6" library="_common" deviceset="R" device="" value="10K"/>
-<part name="R11" library="_common" deviceset="R" device="" value="100K"/>
+<part name="R6" library="_common" deviceset="R" device="" value="20K"/>
+<part name="R11" library="_common" deviceset="R" device="" value="5.1K"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="C12" library="_common" deviceset="CE-US" device="E2-5" value="33u"/>
 <part name="R7" library="_common" deviceset="R" device="" value="100K"/>
@@ -943,14 +943,14 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="C21" library="_common" deviceset="CC-US" device="025-024X044" value="22n"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="R28" library="_common" deviceset="R" device="" value="20K"/>
-<part name="R8" library="_common" deviceset="R" device="" value="20K"/>
-<part name="R15" library="_common" deviceset="R" device="" value="10K"/>
+<part name="R8" library="_common" deviceset="R" device="" value="5.1K"/>
+<part name="R15" library="_common" deviceset="R" device="" value="20K"/>
 <part name="C16" library="_common" deviceset="CE-US" device="E2-5" value="33u"/>
 <part name="R19" library="_common" deviceset="R" device="" value="100K"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
-<part name="R22" library="_common" deviceset="R" device="" value="100K"/>
-<part name="R16" library="_common" deviceset="R" device="" value="20K"/>
+<part name="R22" library="_common" deviceset="R" device="" value="5.1K"/>
+<part name="R16" library="_common" deviceset="R" device="" value="5.1K"/>
 <part name="R23" library="_common" deviceset="R" device="" value="20K"/>
 <part name="R25" library="_common" deviceset="R" device="" value="20K"/>
 <part name="C19" library="_common" deviceset="CC-US" device="025-024X044" value="100p"/>
@@ -973,17 +973,17 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <sheets>
 <sheet>
 <plain>
-<text x="172.72" y="88.9" size="2.54" layer="96">State Variable Filter Based 2 Band EQ (CALREC PQ1549)
+<text x="172.72" y="88.9" size="2.1844" layer="96">State Variable Filter Based 2 Band EQ (CALREC PQ1549)
 Adapted from: http://www.gyraf.dk/gy_pd/calreq/calrec.htm
 Polyester caps used in filter opamp stages (68n/22n).
 Original design used Tantalum caps for 33u values, but not reccommended 
 as Tantalum is a conflict mineral.
 Electrolytic caps seem to be a functional replacement.</text>
-<text x="162.56" y="190.5" size="1.778" layer="97">HIGH MID FREQ</text>
-<text x="71.12" y="165.1" size="1.778" layer="96" rot="R90">HIGH-MID Q</text>
+<text x="172.72" y="190.5" size="1.778" layer="97">HIGH MID FREQ</text>
+<text x="81.28" y="165.1" size="1.778" layer="96" rot="R90">HIGH-MID Q</text>
 <text x="116.84" y="124.46" size="1.778" layer="96" rot="R90">LOW-MID Q</text>
 <text x="208.28" y="147.32" size="1.778" layer="97">LOW MID FREQ</text>
-<text x="185.42" y="160.02" size="1.778" layer="97">Note using LOG (A) pots, instead of -LOG (C), and wired so freq will increase CCW.</text>
+<text x="195.58" y="160.02" size="1.778" layer="97">Using LOG (A) pots, instead of -LOG (C); wired so freq will increase CCW.</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="43.18" y="81.28" smashed="yes" rot="MR180">
@@ -1002,17 +1002,17 @@ Electrolytic caps seem to be a functional replacement.</text>
 <attribute name="NAME" x="15.24" y="187.325" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="15.24" y="195.58" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="IC2" gate="A" x="121.92" y="175.26" smashed="yes" rot="MR180">
-<attribute name="NAME" x="124.46" y="172.085" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="124.46" y="180.34" size="1.778" layer="96" rot="MR180"/>
+<instance part="IC2" gate="A" x="132.08" y="175.26" smashed="yes" rot="MR180">
+<attribute name="NAME" x="134.62" y="172.085" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="134.62" y="180.34" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="IC2" gate="B" x="170.18" y="172.72" smashed="yes" rot="MR180">
-<attribute name="NAME" x="172.72" y="169.545" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="172.72" y="177.8" size="1.778" layer="96" rot="MR180"/>
+<instance part="IC2" gate="B" x="180.34" y="172.72" smashed="yes" rot="MR180">
+<attribute name="NAME" x="182.88" y="169.545" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="182.88" y="177.8" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="IC2" gate="C" x="218.44" y="170.18" smashed="yes" rot="MR180">
-<attribute name="NAME" x="220.98" y="167.005" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="220.98" y="175.26" size="1.778" layer="96" rot="MR180"/>
+<instance part="IC2" gate="C" x="228.6" y="170.18" smashed="yes" rot="MR180">
+<attribute name="NAME" x="231.14" y="167.005" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="231.14" y="175.26" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="IC2" gate="D" x="33.02" y="190.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="35.56" y="187.325" size="1.778" layer="95" rot="MR180"/>
@@ -1149,9 +1149,9 @@ Electrolytic caps seem to be a functional replacement.</text>
 <attribute name="NAME" x="106.68" y="93.9546" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="106.68" y="88.9" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="C13" gate="G$1" x="114.3" y="99.06" smashed="yes" rot="MR180">
-<attribute name="NAME" x="111.506" y="99.06" size="1.778" layer="95" rot="MR270" align="center"/>
-<attribute name="VALUE" x="117.094" y="99.06" size="1.778" layer="96" rot="MR270" align="center"/>
+<instance part="C13" gate="G$1" x="116.84" y="99.06" smashed="yes" rot="MR180">
+<attribute name="NAME" x="114.046" y="99.06" size="1.778" layer="95" rot="MR270" align="center"/>
+<attribute name="VALUE" x="119.634" y="99.06" size="1.778" layer="96" rot="MR270" align="center"/>
 </instance>
 <instance part="R9" gate="G$1" x="106.68" y="104.14" smashed="yes">
 <attribute name="NAME" x="106.68" y="106.6546" size="1.778" layer="95" align="center"/>
@@ -1212,97 +1212,97 @@ Electrolytic caps seem to be a functional replacement.</text>
 <instance part="GND10" gate="1" x="96.52" y="76.2" smashed="yes">
 <attribute name="VALUE" x="94.615" y="73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="RV2" gate="G$1" x="78.74" y="109.22" smashed="yes">
-<attribute name="NAME" x="78.74" y="104.8766" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="78.74" y="106.934" size="1.778" layer="96" align="center"/>
+<instance part="RV2" gate="G$1" x="88.9" y="109.22" smashed="yes">
+<attribute name="NAME" x="88.9" y="104.8766" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="88.9" y="106.934" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="RV4" gate="G$1" x="124.46" y="109.22" smashed="yes">
 <attribute name="NAME" x="124.46" y="104.8766" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="124.46" y="106.934" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="RV1" gate="G$1" x="78.74" y="172.72" smashed="yes" rot="R270">
-<attribute name="NAME" x="74.3966" y="172.72" size="1.778" layer="95" rot="R270" align="center"/>
-<attribute name="VALUE" x="76.454" y="172.72" size="1.778" layer="96" rot="R270" align="center"/>
+<instance part="RV1" gate="G$1" x="88.9" y="172.72" smashed="yes" rot="R270">
+<attribute name="NAME" x="84.5566" y="172.72" size="1.778" layer="95" rot="R270" align="center"/>
+<attribute name="VALUE" x="86.614" y="172.72" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
 <instance part="RV3" gate="G$1" x="124.46" y="129.54" smashed="yes" rot="R270">
 <attribute name="NAME" x="120.1166" y="129.54" size="1.778" layer="95" rot="R270" align="center"/>
 <attribute name="VALUE" x="122.174" y="129.54" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
-<instance part="R6" gate="G$1" x="91.44" y="177.8" smashed="yes">
-<attribute name="NAME" x="91.44" y="180.3146" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="91.44" y="175.26" size="1.778" layer="96" align="center"/>
+<instance part="R6" gate="G$1" x="101.6" y="177.8" smashed="yes">
+<attribute name="NAME" x="101.6" y="180.3146" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="101.6" y="175.26" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R11" gate="G$1" x="109.22" y="172.72" smashed="yes">
-<attribute name="NAME" x="109.22" y="175.2346" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="109.22" y="170.18" size="1.778" layer="96" align="center"/>
+<instance part="R11" gate="G$1" x="116.84" y="167.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="114.3254" y="167.64" size="1.778" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="119.38" y="167.64" size="1.778" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="GND13" gate="1" x="104.14" y="165.1" smashed="yes">
-<attribute name="VALUE" x="102.235" y="162.56" size="1.778" layer="96"/>
+<instance part="GND13" gate="1" x="116.84" y="160.02" smashed="yes">
+<attribute name="VALUE" x="114.935" y="157.48" size="1.778" layer="96"/>
 </instance>
-<instance part="C12" gate="G$1" x="106.68" y="177.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="106.68" y="180.594" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="106.68" y="175.006" size="1.778" layer="96" align="center"/>
+<instance part="C12" gate="G$1" x="116.84" y="177.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="116.84" y="180.594" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="116.84" y="175.006" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R7" gate="G$1" x="99.06" y="172.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="96.5454" y="172.72" size="1.778" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="101.6" y="172.72" size="1.778" layer="96" rot="R90" align="center"/>
+<instance part="R7" gate="G$1" x="109.22" y="172.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="106.7054" y="172.72" size="1.778" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="111.76" y="172.72" size="1.778" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="GND11" gate="1" x="99.06" y="165.1" smashed="yes">
-<attribute name="VALUE" x="97.155" y="162.56" size="1.778" layer="96"/>
+<instance part="GND11" gate="1" x="109.22" y="165.1" smashed="yes">
+<attribute name="VALUE" x="107.315" y="162.56" size="1.778" layer="96"/>
 </instance>
-<instance part="R13" gate="G$1" x="124.46" y="185.42" smashed="yes">
-<attribute name="NAME" x="124.46" y="187.9346" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="124.46" y="182.88" size="1.778" layer="96" align="center"/>
+<instance part="R13" gate="G$1" x="134.62" y="185.42" smashed="yes">
+<attribute name="NAME" x="134.62" y="187.9346" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="134.62" y="182.88" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="C14" gate="G$1" x="124.46" y="193.04" smashed="yes" rot="R270">
-<attribute name="NAME" x="124.587" y="195.58" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="124.46" y="190.5" size="1.778" layer="96" align="center"/>
+<instance part="C14" gate="G$1" x="134.62" y="193.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="134.747" y="195.58" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="134.62" y="190.5" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R17" gate="G$1" x="142.24" y="175.26" smashed="yes">
-<attribute name="NAME" x="142.24" y="177.7746" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="142.24" y="172.72" size="1.778" layer="96" align="center"/>
+<instance part="R17" gate="G$1" x="152.4" y="175.26" smashed="yes">
+<attribute name="NAME" x="152.4" y="177.7746" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="152.4" y="172.72" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R21" gate="G$1" x="154.94" y="175.26" smashed="yes">
-<attribute name="NAME" x="154.94" y="177.7746" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="154.94" y="172.72" size="1.778" layer="96" align="center"/>
+<instance part="R21" gate="G$1" x="165.1" y="175.26" smashed="yes">
+<attribute name="NAME" x="165.1" y="177.7746" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="165.1" y="172.72" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R20" gate="/1" x="154.94" y="185.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="151.13" y="191.389" size="1.778" layer="95"/>
-<attribute name="VALUE" x="151.13" y="189.23" size="1.778" layer="96"/>
+<instance part="R20" gate="/1" x="165.1" y="185.42" smashed="yes" rot="R270">
+<attribute name="NAME" x="161.29" y="191.389" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.29" y="189.23" size="1.778" layer="96"/>
 </instance>
-<instance part="R20" gate="/2" x="203.2" y="185.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="199.39" y="191.389" size="1.778" layer="95"/>
-<attribute name="VALUE" x="199.39" y="189.23" size="1.778" layer="96"/>
+<instance part="R20" gate="/2" x="213.36" y="185.42" smashed="yes" rot="R270">
+<attribute name="NAME" x="209.55" y="191.389" size="1.778" layer="95"/>
+<attribute name="VALUE" x="209.55" y="189.23" size="1.778" layer="96"/>
 </instance>
-<instance part="GND17" gate="1" x="162.56" y="167.64" smashed="yes">
-<attribute name="VALUE" x="160.655" y="165.1" size="1.778" layer="96"/>
+<instance part="GND17" gate="1" x="172.72" y="167.64" smashed="yes">
+<attribute name="VALUE" x="170.815" y="165.1" size="1.778" layer="96"/>
 </instance>
-<instance part="R12" gate="G$1" x="114.3" y="167.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="116.8146" y="167.64" size="1.778" layer="95" rot="R270" align="center"/>
-<attribute name="VALUE" x="111.76" y="167.64" size="1.778" layer="96" rot="R270" align="center"/>
+<instance part="R12" gate="G$1" x="124.46" y="167.64" smashed="yes" rot="MR270">
+<attribute name="NAME" x="121.9454" y="167.64" size="1.778" layer="95" rot="MR270" align="center"/>
+<attribute name="VALUE" x="127" y="167.64" size="1.778" layer="96" rot="MR270" align="center"/>
 </instance>
-<instance part="C20" gate="G$1" x="172.72" y="185.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="172.847" y="187.96" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="172.72" y="182.88" size="1.778" layer="96" align="center"/>
+<instance part="C20" gate="G$1" x="182.88" y="185.42" smashed="yes" rot="R270">
+<attribute name="NAME" x="183.007" y="187.96" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="182.88" y="182.88" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R29" gate="G$1" x="190.5" y="172.72" smashed="yes">
-<attribute name="NAME" x="190.5" y="175.2346" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="190.5" y="170.18" size="1.778" layer="96" align="center"/>
+<instance part="R29" gate="G$1" x="200.66" y="172.72" smashed="yes">
+<attribute name="NAME" x="200.66" y="175.2346" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="200.66" y="170.18" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R32" gate="G$1" x="203.2" y="172.72" smashed="yes">
-<attribute name="NAME" x="203.2" y="175.2346" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="203.2" y="170.18" size="1.778" layer="96" align="center"/>
+<instance part="R32" gate="G$1" x="213.36" y="172.72" smashed="yes">
+<attribute name="NAME" x="213.36" y="175.2346" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="213.36" y="170.18" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="C21" gate="G$1" x="218.44" y="185.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="218.567" y="187.96" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="218.44" y="182.88" size="1.778" layer="96" align="center"/>
+<instance part="C21" gate="G$1" x="228.6" y="185.42" smashed="yes" rot="R270">
+<attribute name="NAME" x="228.727" y="187.96" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="228.6" y="182.88" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="GND21" gate="1" x="210.82" y="165.1" smashed="yes">
-<attribute name="VALUE" x="208.915" y="162.56" size="1.778" layer="96"/>
+<instance part="GND21" gate="1" x="220.98" y="165.1" smashed="yes">
+<attribute name="VALUE" x="219.075" y="162.56" size="1.778" layer="96"/>
 </instance>
-<instance part="R28" gate="G$1" x="190.5" y="198.12" smashed="yes">
-<attribute name="NAME" x="190.5" y="200.6346" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="190.5" y="195.58" size="1.778" layer="96" align="center"/>
+<instance part="R28" gate="G$1" x="200.66" y="198.12" smashed="yes">
+<attribute name="NAME" x="200.66" y="200.6346" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="200.66" y="195.58" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="R8" gate="G$1" x="104.14" y="157.48" smashed="yes">
 <attribute name="NAME" x="104.14" y="159.9946" size="1.778" layer="95" align="center"/>
@@ -1323,20 +1323,20 @@ Electrolytic caps seem to be a functional replacement.</text>
 <instance part="GND15" gate="1" x="144.78" y="121.92" smashed="yes">
 <attribute name="VALUE" x="142.875" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="GND16" gate="1" x="149.86" y="121.92" smashed="yes">
-<attribute name="VALUE" x="147.955" y="119.38" size="1.778" layer="96"/>
+<instance part="GND16" gate="1" x="152.4" y="116.84" smashed="yes">
+<attribute name="VALUE" x="150.495" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="R22" gate="G$1" x="154.94" y="129.54" smashed="yes">
-<attribute name="NAME" x="154.94" y="132.0546" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="154.94" y="127" size="1.778" layer="96" align="center"/>
+<instance part="R22" gate="G$1" x="152.4" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="149.8854" y="124.46" size="1.778" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="154.94" y="124.46" size="1.778" layer="96" rot="R90" align="center"/>
 </instance>
 <instance part="R16" gate="G$1" x="139.7" y="114.3" smashed="yes">
 <attribute name="NAME" x="139.7" y="116.8146" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="139.7" y="111.76" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R23" gate="G$1" x="160.02" y="124.46" smashed="yes" rot="R270">
-<attribute name="NAME" x="162.5346" y="124.46" size="1.778" layer="95" rot="R270" align="center"/>
-<attribute name="VALUE" x="157.48" y="124.46" size="1.778" layer="96" rot="R270" align="center"/>
+<instance part="R23" gate="G$1" x="160.02" y="124.46" smashed="yes" rot="MR270">
+<attribute name="NAME" x="157.5054" y="124.46" size="1.778" layer="95" rot="MR270" align="center"/>
+<attribute name="VALUE" x="162.56" y="124.46" size="1.778" layer="96" rot="MR270" align="center"/>
 </instance>
 <instance part="R25" gate="G$1" x="170.18" y="142.24" smashed="yes">
 <attribute name="NAME" x="170.18" y="144.7546" size="1.778" layer="95" align="center"/>
@@ -1358,17 +1358,17 @@ Electrolytic caps seem to be a functional replacement.</text>
 <attribute name="NAME" x="196.85" y="148.209" size="1.778" layer="95"/>
 <attribute name="VALUE" x="196.85" y="146.05" size="1.778" layer="96"/>
 </instance>
-<instance part="R30" gate="/2" x="251.46" y="142.24" smashed="yes" rot="R270">
-<attribute name="NAME" x="247.65" y="148.209" size="1.778" layer="95"/>
-<attribute name="VALUE" x="247.65" y="146.05" size="1.778" layer="96"/>
+<instance part="R30" gate="/2" x="248.92" y="142.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="245.11" y="148.209" size="1.778" layer="95"/>
+<attribute name="VALUE" x="245.11" y="146.05" size="1.778" layer="96"/>
 </instance>
 <instance part="C22" gate="G$1" x="218.44" y="142.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="218.567" y="144.78" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="218.44" y="139.7" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="C24" gate="G$1" x="266.7" y="142.24" smashed="yes" rot="R270">
-<attribute name="NAME" x="266.827" y="144.78" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="266.7" y="139.7" size="1.778" layer="96" align="center"/>
+<instance part="C24" gate="G$1" x="264.16" y="142.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="264.287" y="144.78" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="264.16" y="139.7" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="R34" gate="G$1" x="236.22" y="129.54" smashed="yes">
 <attribute name="NAME" x="236.22" y="132.0546" size="1.778" layer="95" align="center"/>
@@ -1378,23 +1378,23 @@ Electrolytic caps seem to be a functional replacement.</text>
 <attribute name="NAME" x="248.92" y="132.0546" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="248.92" y="127" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R33" gate="G$1" x="233.68" y="154.94" smashed="yes">
-<attribute name="NAME" x="233.68" y="157.4546" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="233.68" y="152.4" size="1.778" layer="96" align="center"/>
+<instance part="R33" gate="G$1" x="236.22" y="154.94" smashed="yes">
+<attribute name="NAME" x="246.38" y="157.4546" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="236.22" y="152.4" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="C23" gate="G$1" x="233.68" y="147.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="233.807" y="149.86" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="233.68" y="144.78" size="1.778" layer="96" align="center"/>
+<instance part="C23" gate="G$1" x="236.22" y="147.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="236.347" y="149.86" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="236.22" y="144.78" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="GND20" gate="1" x="208.28" y="124.46" smashed="yes">
 <attribute name="VALUE" x="206.375" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="GND22" gate="1" x="256.54" y="121.92" smashed="yes">
-<attribute name="VALUE" x="254.635" y="119.38" size="1.778" layer="96"/>
+<instance part="GND22" gate="1" x="254" y="121.92" smashed="yes">
+<attribute name="VALUE" x="252.095" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="A" x="17.78" y="106.68" smashed="yes">
-<attribute name="NAME" x="11.43" y="114.935" size="1.778" layer="95"/>
-<attribute name="VALUE" x="11.43" y="96.52" size="1.778" layer="96"/>
+<instance part="JP1" gate="A" x="20.32" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="26.67" y="98.425" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="26.67" y="116.84" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P-1" gate="1" x="10.16" y="93.98" smashed="yes">
 <attribute name="VALUE" x="7.62" y="91.44" size="1.778" layer="96" rot="R90"/>
@@ -1439,12 +1439,12 @@ Electrolytic caps seem to be a functional replacement.</text>
 <junction x="38.1" y="127"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="10"/>
-<pinref part="JP1" gate="A" pin="9"/>
-<wire x1="22.86" y1="101.6" x2="15.24" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="P-1" gate="1" pin="-12V"/>
-<wire x1="15.24" y1="101.6" x2="10.16" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="101.6" x2="10.16" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="22.86" y1="101.6" x2="15.24" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="101.6" x2="10.16" y2="101.6" width="0.1524" layer="91"/>
 <junction x="15.24" y="101.6"/>
 </segment>
 </net>
@@ -1478,12 +1478,12 @@ Electrolytic caps seem to be a functional replacement.</text>
 <junction x="38.1" y="147.32"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
-<pinref part="JP1" gate="A" pin="1"/>
-<wire x1="22.86" y1="111.76" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
-<wire x1="15.24" y1="111.76" x2="10.16" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="111.76" x2="10.16" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="9"/>
+<pinref part="JP1" gate="A" pin="10"/>
+<wire x1="22.86" y1="111.76" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="111.76" x2="10.16" y2="111.76" width="0.1524" layer="91"/>
 <junction x="15.24" y="111.76"/>
 </segment>
 </net>
@@ -1552,11 +1552,6 @@ Electrolytic caps seem to be a functional replacement.</text>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="0V"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="IC2" gate="A" pin="+IN"/>
-<wire x1="104.14" y1="172.72" x2="104.14" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<junction x="114.3" y="172.72"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
@@ -1577,7 +1572,6 @@ Electrolytic caps seem to be a functional replacement.</text>
 <segment>
 <pinref part="GND16" gate="1" pin="0V"/>
 <pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="124.46" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="B" pin="+IN"/>
@@ -1586,25 +1580,26 @@ Electrolytic caps seem to be a functional replacement.</text>
 <segment>
 <pinref part="IC3" gate="C" pin="+IN"/>
 <pinref part="GND22" gate="1" pin="0V"/>
+<wire x1="256.54" y1="124.46" x2="254" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
-<pinref part="JP1" gate="A" pin="4"/>
-<wire x1="15.24" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="0V"/>
+<wire x1="27.94" y1="106.68" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="7"/>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="22.86" y1="109.22" x2="15.24" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="5"/>
 <pinref part="JP1" gate="A" pin="6"/>
-<wire x1="15.24" y1="106.68" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="106.68" x2="15.24" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="109.22" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
 <junction x="22.86" y="109.22"/>
 <junction x="22.86" y="106.68"/>
-<pinref part="JP1" gate="A" pin="7"/>
-<pinref part="JP1" gate="A" pin="8"/>
-<wire x1="15.24" y1="104.14" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="22.86" y1="104.14" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="106.68" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
 <junction x="22.86" y="104.14"/>
-<pinref part="GND5" gate="1" pin="0V"/>
 <wire x1="22.86" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="106.68" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1654,7 +1649,7 @@ Electrolytic caps seem to be a functional replacement.</text>
 <junction x="71.12" y="91.44"/>
 <wire x1="71.12" y1="91.44" x2="71.12" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="RV2" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="109.22" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="109.22" x2="83.82" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -1775,177 +1770,177 @@ Electrolytic caps seem to be a functional replacement.</text>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="C13" gate="G$1" pin="-"/>
-<wire x1="111.76" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="RV2" gate="G$1" pin="2"/>
 <pinref part="RV4" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="109.22" x2="114.3" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="104.14" x2="114.3" y2="109.22" width="0.1524" layer="91"/>
-<junction x="114.3" y="104.14"/>
-<junction x="114.3" y="109.22"/>
+<wire x1="93.98" y1="109.22" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="104.14" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
+<junction x="116.84" y="104.14"/>
+<junction x="116.84" y="109.22"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="91.44" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="91.44" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="+"/>
-<wire x1="114.3" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="93.98" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
-<junction x="114.3" y="91.44"/>
+<wire x1="116.84" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="93.98" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
+<junction x="116.84" y="91.44"/>
 <pinref part="IC1" gate="B" pin="OUT"/>
-<wire x1="111.76" y1="81.28" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="81.28" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="81.28" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="81.28" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="RV2" gate="G$1" pin="P$1"/>
 <pinref part="RV1" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="114.3" x2="78.74" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="114.3" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="RV1" gate="G$1" pin="1"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="177.8" x2="83.82" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="177.8" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="RV1" gate="G$1" pin="P$1"/>
-<wire x1="83.82" y1="177.8" x2="86.36" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="172.72" x2="83.82" y2="177.8" width="0.1524" layer="91"/>
-<junction x="83.82" y="177.8"/>
+<wire x1="93.98" y1="177.8" x2="96.52" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="172.72" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
+<junction x="93.98" y="177.8"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="177.8" x2="99.06" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="177.8" x2="109.22" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="-"/>
-<wire x1="101.6" y1="177.8" x2="99.06" y2="177.8" width="0.1524" layer="91"/>
-<junction x="99.06" y="177.8"/>
+<wire x1="111.76" y1="177.8" x2="109.22" y2="177.8" width="0.1524" layer="91"/>
+<junction x="109.22" y="177.8"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="C12" gate="G$1" pin="+"/>
 <pinref part="IC2" gate="A" pin="-IN"/>
-<wire x1="111.76" y1="177.8" x2="114.3" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="177.8" x2="124.46" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="193.04" x2="114.3" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="193.04" x2="114.3" y2="185.42" width="0.1524" layer="91"/>
-<junction x="114.3" y="177.8"/>
+<wire x1="129.54" y1="193.04" x2="124.46" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="193.04" x2="124.46" y2="185.42" width="0.1524" layer="91"/>
+<junction x="124.46" y="177.8"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="185.42" x2="114.3" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="185.42" x2="114.3" y2="185.42" width="0.1524" layer="91"/>
-<junction x="114.3" y="185.42"/>
+<wire x1="124.46" y1="185.42" x2="124.46" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="185.42" x2="124.46" y2="185.42" width="0.1524" layer="91"/>
+<junction x="124.46" y="185.42"/>
 <pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="198.12" x2="114.3" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="198.12" x2="114.3" y2="193.04" width="0.1524" layer="91"/>
-<junction x="114.3" y="193.04"/>
+<wire x1="195.58" y1="198.12" x2="124.46" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="198.12" x2="124.46" y2="193.04" width="0.1524" layer="91"/>
+<junction x="124.46" y="193.04"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="193.04" x2="134.62" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="193.04" x2="134.62" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="193.04" x2="144.78" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="193.04" x2="144.78" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="OUT"/>
-<wire x1="134.62" y1="185.42" x2="134.62" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="175.26" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="185.42" x2="144.78" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="175.26" x2="139.7" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="185.42" x2="134.62" y2="185.42" width="0.1524" layer="91"/>
-<junction x="134.62" y="185.42"/>
+<wire x1="139.7" y1="185.42" x2="144.78" y2="185.42" width="0.1524" layer="91"/>
+<junction x="144.78" y="185.42"/>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="175.26" x2="137.16" y2="175.26" width="0.1524" layer="91"/>
-<junction x="134.62" y="175.26"/>
+<wire x1="144.78" y1="175.26" x2="147.32" y2="175.26" width="0.1524" layer="91"/>
+<junction x="144.78" y="175.26"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="175.26" x2="149.86" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="175.26" x2="160.02" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="R20" gate="/1" pin="A"/>
-<wire x1="149.86" y1="185.42" x2="149.86" y2="175.26" width="0.1524" layer="91"/>
-<junction x="149.86" y="175.26"/>
+<wire x1="160.02" y1="185.42" x2="160.02" y2="175.26" width="0.1524" layer="91"/>
+<junction x="160.02" y="175.26"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="R20" gate="/1" pin="E"/>
 <pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="160.02" y1="185.42" x2="160.02" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="185.42" x2="170.18" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="R20" gate="/1" pin="S"/>
-<wire x1="160.02" y1="180.34" x2="160.02" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="180.34" x2="160.02" y2="180.34" width="0.1524" layer="91"/>
-<junction x="160.02" y="180.34"/>
+<wire x1="170.18" y1="180.34" x2="170.18" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="180.34" x2="170.18" y2="180.34" width="0.1524" layer="91"/>
+<junction x="170.18" y="180.34"/>
 <pinref part="IC2" gate="B" pin="-IN"/>
-<wire x1="160.02" y1="175.26" x2="162.56" y2="175.26" width="0.1524" layer="91"/>
-<junction x="160.02" y="175.26"/>
+<wire x1="170.18" y1="175.26" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
+<junction x="170.18" y="175.26"/>
 <pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="185.42" x2="160.02" y2="185.42" width="0.1524" layer="91"/>
-<junction x="160.02" y="185.42"/>
+<wire x1="177.8" y1="185.42" x2="170.18" y2="185.42" width="0.1524" layer="91"/>
+<junction x="170.18" y="185.42"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="162.56" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="157.48" x2="182.88" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="162.56" x2="124.46" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="157.48" x2="193.04" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="B" pin="OUT"/>
-<wire x1="182.88" y1="157.48" x2="182.88" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="172.72" x2="177.8" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="157.48" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="172.72" x2="187.96" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="185.42" x2="182.88" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="185.42" x2="182.88" y2="172.72" width="0.1524" layer="91"/>
-<junction x="182.88" y="172.72"/>
+<wire x1="187.96" y1="185.42" x2="193.04" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="185.42" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
+<junction x="193.04" y="172.72"/>
 <pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="172.72" x2="185.42" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="172.72" x2="195.58" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="157.48" x2="109.22" y2="157.48" width="0.1524" layer="91"/>
-<junction x="114.3" y="157.48"/>
+<wire x1="124.46" y1="157.48" x2="109.22" y2="157.48" width="0.1524" layer="91"/>
+<junction x="124.46" y="157.48"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="R29" gate="G$1" pin="2"/>
 <pinref part="R32" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="172.72" x2="198.12" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="172.72" x2="208.28" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="R20" gate="/2" pin="A"/>
-<wire x1="198.12" y1="172.72" x2="198.12" y2="185.42" width="0.1524" layer="91"/>
-<junction x="198.12" y="172.72"/>
+<wire x1="208.28" y1="172.72" x2="208.28" y2="185.42" width="0.1524" layer="91"/>
+<junction x="208.28" y="172.72"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="R20" gate="/2" pin="S"/>
 <pinref part="R20" gate="/2" pin="E"/>
-<wire x1="203.2" y1="180.34" x2="208.28" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="180.34" x2="208.28" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="180.34" x2="218.44" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="180.34" x2="218.44" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="2"/>
 <pinref part="IC2" gate="C" pin="-IN"/>
-<wire x1="208.28" y1="172.72" x2="210.82" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="180.34" x2="208.28" y2="172.72" width="0.1524" layer="91"/>
-<junction x="208.28" y="180.34"/>
-<junction x="208.28" y="172.72"/>
+<wire x1="218.44" y1="172.72" x2="220.98" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="180.34" x2="218.44" y2="172.72" width="0.1524" layer="91"/>
+<junction x="218.44" y="180.34"/>
+<junction x="218.44" y="172.72"/>
 <pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="185.42" x2="208.28" y2="185.42" width="0.1524" layer="91"/>
-<junction x="208.28" y="185.42"/>
+<wire x1="223.52" y1="185.42" x2="218.44" y2="185.42" width="0.1524" layer="91"/>
+<junction x="218.44" y="185.42"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="185.42" x2="231.14" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="185.42" x2="241.3" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="C" pin="OUT"/>
-<wire x1="231.14" y1="185.42" x2="231.14" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="170.18" x2="226.06" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="185.42" x2="241.3" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="170.18" x2="236.22" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="198.12" x2="231.14" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="198.12" x2="231.14" y2="185.42" width="0.1524" layer="91"/>
-<junction x="231.14" y="185.42"/>
+<wire x1="205.74" y1="198.12" x2="241.3" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="198.12" x2="241.3" y2="185.42" width="0.1524" layer="91"/>
+<junction x="241.3" y="185.42"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -1959,6 +1954,7 @@ Electrolytic caps seem to be a functional replacement.</text>
 <segment>
 <pinref part="IC3" gate="A" pin="+IN"/>
 <pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="129.54" x2="160.02" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="1"/>
 <junction x="160.02" y="129.54"/>
 </segment>
@@ -1998,12 +1994,12 @@ Electrolytic caps seem to be a functional replacement.</text>
 <wire x1="165.1" y1="142.24" x2="160.02" y2="142.24" width="0.1524" layer="91"/>
 <junction x="160.02" y="142.24"/>
 <pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="154.94" x2="160.02" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="154.94" x2="160.02" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="154.94" x2="160.02" y2="149.86" width="0.1524" layer="91"/>
 <junction x="160.02" y="149.86"/>
 <pinref part="C23" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="147.32" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
-<junction x="228.6" y="154.94"/>
+<wire x1="231.14" y1="147.32" x2="231.14" y2="154.94" width="0.1524" layer="91"/>
+<junction x="231.14" y="154.94"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -2074,42 +2070,50 @@ Electrolytic caps seem to be a functional replacement.</text>
 <pinref part="R35" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="129.54" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R30" gate="/2" pin="A"/>
-<wire x1="243.84" y1="129.54" x2="246.38" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="129.54" x2="246.38" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="129.54" x2="243.84" y2="142.24" width="0.1524" layer="91"/>
 <junction x="243.84" y="129.54"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
+<pinref part="R30" gate="/2" pin="E"/>
+<wire x1="254" y1="142.24" x2="254" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="R30" gate="/2" pin="S"/>
+<wire x1="248.92" y1="137.16" x2="254" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="C24" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="142.24" x2="254" y2="142.24" width="0.1524" layer="91"/>
+<junction x="254" y="142.24"/>
 <pinref part="R35" gate="G$1" pin="2"/>
+<wire x1="254" y1="137.16" x2="254" y2="129.54" width="0.1524" layer="91"/>
+<junction x="254" y="137.16"/>
 <pinref part="IC3" gate="C" pin="-IN"/>
 <wire x1="254" y1="129.54" x2="256.54" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R30" gate="/2" pin="E"/>
-<wire x1="256.54" y1="142.24" x2="256.54" y2="137.16" width="0.1524" layer="91"/>
-<junction x="256.54" y="129.54"/>
-<pinref part="R30" gate="/2" pin="S"/>
-<wire x1="256.54" y1="137.16" x2="256.54" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="137.16" x2="256.54" y2="137.16" width="0.1524" layer="91"/>
-<junction x="256.54" y="137.16"/>
-<pinref part="C24" gate="G$1" pin="2"/>
-<wire x1="261.62" y1="142.24" x2="256.54" y2="142.24" width="0.1524" layer="91"/>
-<junction x="256.54" y="142.24"/>
+<junction x="254" y="129.54"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
 <pinref part="C24" gate="G$1" pin="1"/>
-<wire x1="271.78" y1="142.24" x2="276.86" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="142.24" x2="276.86" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="142.24" x2="276.86" y2="127" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="C" pin="OUT"/>
 <wire x1="276.86" y1="127" x2="271.78" y2="127" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="276.86" y1="142.24" x2="276.86" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="154.94" x2="238.76" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="154.94" x2="241.3" y2="154.94" width="0.1524" layer="91"/>
 <junction x="276.86" y="142.24"/>
 <pinref part="C23" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="154.94" x2="238.76" y2="147.32" width="0.1524" layer="91"/>
-<junction x="238.76" y="154.94"/>
+<wire x1="241.3" y1="154.94" x2="241.3" y2="147.32" width="0.1524" layer="91"/>
+<junction x="241.3" y="154.94"/>
+</segment>
+</net>
+<net name="N$40" class="1">
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="IC2" gate="A" pin="+IN"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<junction x="124.46" y="172.72"/>
+<wire x1="116.84" y1="172.72" x2="124.46" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
