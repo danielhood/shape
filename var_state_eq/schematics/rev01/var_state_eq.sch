@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,13 +39,13 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -898,7 +898,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="C10" library="_common" deviceset="CE-US" device="E2-5" value="22u"/>
 <part name="C9" library="_common" deviceset="CC-US" device="025-024X044" value="100n"/>
 <part name="R4" library="_common" deviceset="R" device="" value="100K"/>
-<part name="C6" library="_common" deviceset="CC-US" device="025-024X044" value="22p"/>
+<part name="C6" library="_common" deviceset="CC-US" device="025-024X044" value="18p"/>
 <part name="C11" library="_common" deviceset="CE-US" device="E2-5" value="33u"/>
 <part name="R5" library="_common" deviceset="R" device="" value="20K"/>
 <part name="R10" library="_common" deviceset="R" device="" value="20K"/>
@@ -906,7 +906,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="R9" library="_common" deviceset="R" device="" value="100K"/>
 <part name="R14" library="_common" deviceset="R" device="" value="20K"/>
 <part name="R18" library="_common" deviceset="R" device="" value="20K"/>
-<part name="C15" library="_common" deviceset="CC-US" device="025-024X044" value="22p"/>
+<part name="C15" library="_common" deviceset="CC-US" device="025-024X044" value="18p"/>
 <part name="C17" library="_common" deviceset="CC-US" device="025-024X044" value="100n"/>
 <part name="C18" library="_common" deviceset="CE-US" device="E2-5" value="100u"/>
 <part name="R26" library="_common" deviceset="R" device="" value="22R"/>
@@ -933,13 +933,13 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="R13" library="_common" deviceset="R" device="" value="20K"/>
 <part name="C14" library="_common" deviceset="CC-US" device="025-024X044" value="100p"/>
 <part name="R17" library="_common" deviceset="R" device="" value="1K"/>
-<part name="R21" library="_common" deviceset="R" device="" value="15K or 65K?"/>
+<part name="R21" library="_common" deviceset="R" device="" value="50K"/>
 <part name="R20" library="_common" deviceset="3RP/1610G" device="" package3d_urn="urn:adsk.eagle:package:22728/1" value="50K LOG"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="R12" library="_common" deviceset="R" device="" value="20K"/>
 <part name="C20" library="_common" deviceset="CC-US" device="025-024X044" value="22n"/>
 <part name="R29" library="_common" deviceset="R" device="" value="1K"/>
-<part name="R32" library="_common" deviceset="R" device="" value="15K or 65K?"/>
+<part name="R32" library="_common" deviceset="R" device="" value="50K"/>
 <part name="C21" library="_common" deviceset="CC-US" device="025-024X044" value="22n"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="R28" library="_common" deviceset="R" device="" value="20K"/>
@@ -955,14 +955,14 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="R25" library="_common" deviceset="R" device="" value="20K"/>
 <part name="C19" library="_common" deviceset="CC-US" device="025-024X044" value="100p"/>
 <part name="R27" library="_common" deviceset="R" device="" value="1K"/>
-<part name="R31" library="_common" deviceset="R" device="" value="15K or 65K?"/>
+<part name="R31" library="_common" deviceset="R" device="" value="50K"/>
 <part name="R30" library="_common" deviceset="3RP/1610G" device="" package3d_urn="urn:adsk.eagle:package:22728/1" value="50K LOG"/>
-<part name="C22" library="_common" deviceset="CC-US" device="025-024X044" value="68n"/>
-<part name="C24" library="_common" deviceset="CC-US" device="025-024X044" value="68n"/>
+<part name="C22" library="_common" deviceset="CC-US" device="025-024X044" value="66n"/>
+<part name="C24" library="_common" deviceset="CC-US" device="025-024X044" value="66n"/>
 <part name="R34" library="_common" deviceset="R" device="" value="1K"/>
-<part name="R35" library="_common" deviceset="R" device="" value="15K or 65K?"/>
+<part name="R35" library="_common" deviceset="R" device="" value="50K"/>
 <part name="R33" library="_common" deviceset="R" device="" value="20K"/>
-<part name="C23" library="_common" deviceset="CC-US" device="025-024X044" value="22p"/>
+<part name="C23" library="_common" deviceset="CC-US" device="025-024X044" value="18p"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2" value="PWR"/>
@@ -973,16 +973,20 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <sheets>
 <sheet>
 <plain>
-<text x="172.72" y="88.9" size="2.1844" layer="96">State Variable Filter Based 2 Band EQ (CALREC PQ1549)
+<text x="177.8" y="86.36" size="2.1844" layer="96">State Variable Filter Based 2 Band EQ (CALREC PQ1549)
 Adapted from: http://www.gyraf.dk/gy_pd/calreq/calrec.htm
-Polyester caps used in filter opamp stages (68n/22n).
+Polyester caps used in filter opamp stages (66n/22n).
 Original design used Tantalum caps for 33u values, but not reccommended 
 as Tantalum is a conflict mineral.
-Electrolytic caps seem to be a functional replacement.</text>
-<text x="172.72" y="190.5" size="1.778" layer="97">HIGH MID FREQ</text>
+Electrolytic caps seem to be a functional replacement.
+Note: Freq POTS are backwards since we only had LOG instead of InvLOG
+available (i.e. CCW is high freq)</text>
+<text x="172.72" y="190.5" size="1.778" layer="97">HIGH MID FREQ
+300 to 8K</text>
 <text x="81.28" y="165.1" size="1.778" layer="96" rot="R90">HIGH-MID Q</text>
 <text x="116.84" y="124.46" size="1.778" layer="96" rot="R90">LOW-MID Q</text>
-<text x="208.28" y="147.32" size="1.778" layer="97">LOW MID FREQ</text>
+<text x="208.28" y="147.32" size="1.778" layer="97">LOW MID FREQ
+100 to 2K</text>
 <text x="195.58" y="160.02" size="1.778" layer="97">Using LOG (A) pots, instead of -LOG (C); wired so freq will increase CCW.</text>
 <text x="83.82" y="101.6" size="1.778" layer="96">HIGH-MID</text>
 <text x="119.38" y="101.6" size="1.778" layer="96">LOW-MID</text>
@@ -1214,13 +1218,13 @@ Electrolytic caps seem to be a functional replacement.</text>
 <instance part="GND10" gate="1" x="96.52" y="76.2" smashed="yes">
 <attribute name="VALUE" x="94.615" y="73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="RV2" gate="G$1" x="88.9" y="109.22" smashed="yes">
-<attribute name="NAME" x="88.9" y="104.8766" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="88.9" y="106.934" size="1.778" layer="96" align="center"/>
+<instance part="RV2" gate="G$1" x="88.9" y="109.22" smashed="yes" rot="MR0">
+<attribute name="NAME" x="88.9" y="104.8766" size="1.778" layer="95" rot="MR0" align="center"/>
+<attribute name="VALUE" x="88.9" y="106.934" size="1.778" layer="96" rot="MR0" align="center"/>
 </instance>
-<instance part="RV4" gate="G$1" x="124.46" y="109.22" smashed="yes">
-<attribute name="NAME" x="124.46" y="104.8766" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="124.46" y="106.934" size="1.778" layer="96" align="center"/>
+<instance part="RV4" gate="G$1" x="124.46" y="109.22" smashed="yes" rot="MR0">
+<attribute name="NAME" x="124.46" y="104.8766" size="1.778" layer="95" rot="MR0" align="center"/>
+<attribute name="VALUE" x="124.46" y="106.934" size="1.778" layer="96" rot="MR0" align="center"/>
 </instance>
 <instance part="RV1" gate="G$1" x="88.9" y="172.72" smashed="yes" rot="R270">
 <attribute name="NAME" x="84.5566" y="172.72" size="1.778" layer="95" rot="R270" align="center"/>
@@ -1650,7 +1654,7 @@ Electrolytic caps seem to be a functional replacement.</text>
 <wire x1="73.66" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
 <junction x="71.12" y="91.44"/>
 <wire x1="71.12" y1="91.44" x2="71.12" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="RV2" gate="G$1" pin="1"/>
+<pinref part="RV2" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="109.22" x2="83.82" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1719,10 +1723,10 @@ Electrolytic caps seem to be a functional replacement.</text>
 <wire x1="167.64" y1="91.44" x2="167.64" y2="81.28" width="0.1524" layer="91"/>
 <junction x="167.64" y="81.28"/>
 <pinref part="R24" gate="G$1" pin="2"/>
-<pinref part="RV4" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="109.22" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="109.22" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
 <junction x="167.64" y="91.44"/>
+<pinref part="RV4" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="109.22" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -1773,12 +1777,12 @@ Electrolytic caps seem to be a functional replacement.</text>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="C13" gate="G$1" pin="-"/>
 <wire x1="111.76" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="RV2" gate="G$1" pin="2"/>
-<pinref part="RV4" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="109.22" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="104.14" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
 <junction x="116.84" y="104.14"/>
+<pinref part="RV2" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="109.22" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="RV4" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="109.22" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
 <junction x="116.84" y="109.22"/>
 </segment>
 </net>
@@ -1794,13 +1798,6 @@ Electrolytic caps seem to be a functional replacement.</text>
 <pinref part="IC1" gate="B" pin="OUT"/>
 <wire x1="111.76" y1="81.28" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="81.28" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="RV2" gate="G$1" pin="P$1"/>
-<pinref part="RV1" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="114.3" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -1943,13 +1940,6 @@ Electrolytic caps seem to be a functional replacement.</text>
 <wire x1="205.74" y1="198.12" x2="241.3" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="198.12" x2="241.3" y2="185.42" width="0.1524" layer="91"/>
 <junction x="241.3" y="185.42"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="RV3" gate="G$1" pin="2"/>
-<pinref part="RV4" gate="G$1" pin="P$1"/>
-<wire x1="124.46" y1="124.46" x2="124.46" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -2116,6 +2106,20 @@ Electrolytic caps seem to be a functional replacement.</text>
 <pinref part="R12" gate="G$1" pin="1"/>
 <junction x="124.46" y="172.72"/>
 <wire x1="116.84" y1="172.72" x2="124.46" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="RV2" gate="G$1" pin="P$1"/>
+<pinref part="RV1" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="114.3" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="RV4" gate="G$1" pin="P$1"/>
+<pinref part="RV3" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="114.3" x2="124.46" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
