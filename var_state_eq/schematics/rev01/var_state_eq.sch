@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -984,6 +984,8 @@ Electrolytic caps seem to be a functional replacement.</text>
 <text x="116.84" y="124.46" size="1.778" layer="96" rot="R90">LOW-MID Q</text>
 <text x="208.28" y="147.32" size="1.778" layer="97">LOW MID FREQ</text>
 <text x="195.58" y="160.02" size="1.778" layer="97">Using LOG (A) pots, instead of -LOG (C); wired so freq will increase CCW.</text>
+<text x="83.82" y="101.6" size="1.778" layer="96">HIGH-MID</text>
+<text x="119.38" y="101.6" size="1.778" layer="96">LOW-MID</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="43.18" y="81.28" smashed="yes" rot="MR180">
