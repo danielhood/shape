@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13,7 +13,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
@@ -908,7 +908,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="R18" library="_common" deviceset="R" device="" value="20K"/>
 <part name="C15" library="_common" deviceset="CC-US" device="025-024X044" value="18p"/>
 <part name="C17" library="_common" deviceset="CC-US" device="025-024X044" value="100n"/>
-<part name="C18" library="_common" deviceset="CE-US" device="E2-5" value="100u"/>
+<part name="C18" library="_common" deviceset="CE-US" device="E5-8.5" value="100u"/>
 <part name="R26" library="_common" deviceset="R" device="" value="22R"/>
 <part name="R24" library="_common" deviceset="R" device="" value="100K"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
@@ -937,10 +937,10 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="R20" library="_common" deviceset="3RP/1610G" device="" package3d_urn="urn:adsk.eagle:package:22728/1" value="50K LOG"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="R12" library="_common" deviceset="R" device="" value="20K"/>
-<part name="C20" library="_common" deviceset="CC-US" device="025-024X044" value="22n"/>
+<part name="C20" library="_common" deviceset="CC-US" device="050-024X044" value="22n"/>
 <part name="R29" library="_common" deviceset="R" device="" value="1K"/>
 <part name="R32" library="_common" deviceset="R" device="" value="50K"/>
-<part name="C21" library="_common" deviceset="CC-US" device="025-024X044" value="22n"/>
+<part name="C21" library="_common" deviceset="CC-US" device="050-024X044" value="22n"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="R28" library="_common" deviceset="R" device="" value="20K"/>
 <part name="R8" library="_common" deviceset="R" device="" value="5.1K"/>
@@ -957,8 +957,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="R27" library="_common" deviceset="R" device="" value="1K"/>
 <part name="R31" library="_common" deviceset="R" device="" value="50K"/>
 <part name="R30" library="_common" deviceset="3RP/1610G" device="" package3d_urn="urn:adsk.eagle:package:22728/1" value="50K LOG"/>
-<part name="C22" library="_common" deviceset="CC-US" device="025-024X044" value="66n"/>
-<part name="C24" library="_common" deviceset="CC-US" device="025-024X044" value="66n"/>
+<part name="C22" library="_common" deviceset="CC-US" device="050-024X044" value="68n"/>
+<part name="C24" library="_common" deviceset="CC-US" device="050-024X044" value="68n"/>
 <part name="R34" library="_common" deviceset="R" device="" value="1K"/>
 <part name="R35" library="_common" deviceset="R" device="" value="50K"/>
 <part name="R33" library="_common" deviceset="R" device="" value="20K"/>
@@ -2099,7 +2099,7 @@ available (i.e. CCW is high freq)</text>
 <junction x="241.3" y="154.94"/>
 </segment>
 </net>
-<net name="N$40" class="1">
+<net name="N$40" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="IC2" gate="A" pin="+IN"/>
