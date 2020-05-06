@@ -1,0 +1,79 @@
+Partlist
+
+Exported from var_state_eq.sch at 2020-05-05 8:42 PM
+
+EAGLE Version 9.5.1 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device           Package      Library  Sheet
+
+C1       0.1u           CC-US025-024X044 C025-024X044 _common  1
+C2       0.1u           CC-US025-024X044 C025-024X044 _common  1
+C3       0.1u           CC-US025-024X044 C025-024X044 _common  1
+C4       0.1u           CC-US025-024X044 C025-024X044 _common  1
+C5       0.1u           CC-US025-024X044 C025-024X044 _common  1
+C6       18p            CC-US025-024X044 C025-024X044 _common  1
+C7       100u           CE-USE5-8.5      E5-8,5       _common  1
+C8       100u           CE-USE5-8.5      E5-8,5       _common  1
+C9       100n           CC-US025-024X044 C025-024X044 _common  1
+C10      22u            CE-USE2-5        E2-5         _common  1
+C11      33u            CE-USE2-5        E2-5         _common  1
+C12      33u            CE-USE2-5        E2-5         _common  1
+C13      22u            CE-USE2-5        E2-5         _common  1
+C14      100p           CC-US025-024X044 C025-024X044 _common  1
+C15      18p            CC-US025-024X044 C025-024X044 _common  1
+C16      33u            CE-USE2-5        E2-5         _common  1
+C17      100n           CC-US025-024X044 C025-024X044 _common  1
+C18      100u           CE-USE5-8.5      E5-8,5       _common  1
+C19      100p           CC-US025-024X044 C025-024X044 _common  1
+C20      22n            CC-US050-024X044 C050-024X044 _common  1
+C21      22n            CC-US050-024X044 C050-024X044 _common  1
+C22      68n            CC-US050-024X044 C050-024X044 _common  1
+C23      18p            CC-US025-024X044 C025-024X044 _common  1
+C24      68n            CC-US050-024X044 C050-024X044 _common  1
+IC1      TL084P         TL084P           DIL14        _common  1
+IC2      TL084P         TL084P           DIL14        _common  1
+IC3      TL084P         TL084P           DIL14        _common  1
+J1       IN             JACK-M           JACK-M       _common  1
+J2       OUT            JACK-M           JACK-M       _common  1
+JP1      PWR            PINHD-2X5        2X05         pinhead  1
+R1       10K            R                0207/7       _common  1
+R2       10K            R                0207/7       _common  1
+R3       10K            R                0207/7       _common  1
+R4       100K           R                0207/7       _common  1
+R5       20K            R                0207/7       _common  1
+R6       20K            R                0207/7       _common  1
+R7       100K           R                0207/7       _common  1
+R8       5.1K           R                0207/7       _common  1
+R9       100K           R                0207/7       _common  1
+R10      20K            R                0207/7       _common  1
+R11      5.1K           R                0207/7       _common  1
+R12      20K            R                0207/7       _common  1
+R13      20K            R                0207/7       _common  1
+R14      20K            R                0207/7       _common  1
+R15      20K            R                0207/7       _common  1
+R16      5.1K           R                0207/7       _common  1
+R17      1K             R                0207/7       _common  1
+R18      20K            R                0207/7       _common  1
+R19      100K           R                0207/7       _common  1
+R20      50K LOG        3RP/1610G        3RP/1610G    _common  1
+R21      50K            R                0207/7       _common  1
+R22      5.1K           R                0207/7       _common  1
+R23      20K            R                0207/7       _common  1
+R24      100K           R                0207/7       _common  1
+R25      20K            R                0207/7       _common  1
+R26      22R            R                0207/7       _common  1
+R27      1K             R                0207/7       _common  1
+R28      20K            R                0207/7       _common  1
+R29      1K             R                0207/7       _common  1
+R30      50K LOG        3RP/1610G        3RP/1610G    _common  1
+R31      50K            R                0207/7       _common  1
+R32      50K            R                0207/7       _common  1
+R33      20K            R                0207/7       _common  1
+R34      1K             R                0207/7       _common  1
+R35      50K            R                0207/7       _common  1
+RV1      50K LOG        R-VAR-PANEL      R-VAR-PANEL  _common  1
+RV2      10K LIN        R-VAR-PANEL      R-VAR-PANEL  _common  1
+RV3      50K LOG        R-VAR-PANEL      R-VAR-PANEL  _common  1
+RV4      10K LIN        R-VAR-PANEL      R-VAR-PANEL  _common  1

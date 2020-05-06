@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -728,7 +728,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="27.432" y="26.162" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="26.924" y="26.1112" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R26" library="_common" package="0207/7" value="22R" x="49.53" y="21.59" smashed="yes" rot="R90">
+<element name="R26" library="_common" package="0207/7" value="100R" x="49.53" y="21.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.165" y="19.558" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="50.0888" y="19.304" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -753,7 +753,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="2" x="0" y="-30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="5.715" y="13.335" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R31" library="_common" package="0207/7" value="50K" x="19.05" y="29.21" smashed="yes">
+<element name="R31" library="_common" package="0207/7" value="56K" x="19.05" y="29.21" smashed="yes">
 <attribute name="NAME" x="17.653" y="28.702" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="16.764" y="28.6512" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -769,7 +769,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.734" y="3.175" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="31.496" y="3.0988" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R35" library="_common" package="0207/7" value="50K" x="17.78" y="2.54" smashed="yes">
+<element name="R35" library="_common" package="0207/7" value="56K" x="17.78" y="2.54" smashed="yes">
 <attribute name="NAME" x="16.129" y="1.778" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="15.494" y="1.9812" size="1.27" layer="27" ratio="10"/>
 </element>
