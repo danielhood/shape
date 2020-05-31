@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1090,10 +1090,10 @@ Mors</description>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="IC1" library="_common" deviceset="TL084" device="P"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
-<part name="R14" library="_common" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K"/>
+<part name="R14" library="_common" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K LOG"/>
 <part name="R5" library="_common" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K"/>
-<part name="R8" library="_common" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K"/>
-<part name="R12" library="_common" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K"/>
+<part name="R8" library="_common" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K LOG"/>
+<part name="R12" library="_common" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K LOG"/>
 <part name="R13" library="_common" deviceset="R" device="" value="10K"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="C8" library="_common" deviceset="CE-US" device="E5-8.5" value="100uF"/>
@@ -1124,8 +1124,10 @@ Mors</description>
 
 Line-Level IN/OUT
 
-Based on: http://zadvitsky.com/index.php/studio-devices/tape-saturation-compressor.html</text>
-<text x="35.56" y="66.04" size="1.778" layer="97">PRE-FILTER
+Based on: http://zadvitsky.com/index.php/studio-devices/tape-saturation-compressor.html
+
+Pots can be 200K or 250K log</text>
+<text x="40.132" y="72.644" size="1.778" layer="97">PRE-FILTER
 DRIVE</text>
 <text x="78.74" y="73.66" size="1.778" layer="97">POST-FILTER
 AMOUNT</text>
