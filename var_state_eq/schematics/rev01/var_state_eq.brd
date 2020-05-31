@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,8 +8,8 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -708,7 +708,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="2" x="0" y="29.21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="5.715" y="55.245" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R21" library="_common" package="0207/7" value="50K" x="20.32" y="53.34" smashed="yes">
+<element name="R21" library="_common" package="0207/7" value="56K" x="20.32" y="53.34" smashed="yes">
 <attribute name="NAME" x="18.923" y="52.705" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="18.034" y="52.7812" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -757,7 +757,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.653" y="28.702" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="16.764" y="28.6512" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R32" library="_common" package="0207/7" value="50K" x="13.97" y="43.18" smashed="yes" rot="R270">
+<element name="R32" library="_common" package="0207/7" value="56K" x="13.97" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.589" y="44.577" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="13.4112" y="45.466" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
