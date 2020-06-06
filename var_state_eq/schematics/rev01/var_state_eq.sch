@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -896,7 +896,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="R2" library="_common" deviceset="R" device="" value="10K"/>
 <part name="R3" library="_common" deviceset="R" device="" value="10K"/>
 <part name="C10" library="_common" deviceset="CE-US" device="E2-5" value="22u"/>
-<part name="C9" library="_common" deviceset="CC-US" device="025-024X044" value="100n"/>
+<part name="C9" library="_common" deviceset="CC-US" device="025-024X044" value="0.1uF"/>
 <part name="R4" library="_common" deviceset="R" device="" value="100K"/>
 <part name="C6" library="_common" deviceset="CC-US" device="025-024X044" value="18p"/>
 <part name="C11" library="_common" deviceset="CE-US" device="E2-5" value="33u"/>
@@ -907,7 +907,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="R14" library="_common" deviceset="R" device="" value="20K"/>
 <part name="R18" library="_common" deviceset="R" device="" value="20K"/>
 <part name="C15" library="_common" deviceset="CC-US" device="025-024X044" value="18p"/>
-<part name="C17" library="_common" deviceset="CC-US" device="025-024X044" value="100n"/>
+<part name="C17" library="_common" deviceset="CC-US" device="025-024X044" value="0.1uF"/>
 <part name="C18" library="_common" deviceset="CE-US" device="E5-8.5" value="100u"/>
 <part name="R26" library="_common" deviceset="R" device="" value="100R"/>
 <part name="R24" library="_common" deviceset="R" device="" value="100K"/>
@@ -933,13 +933,13 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="R13" library="_common" deviceset="R" device="" value="20K"/>
 <part name="C14" library="_common" deviceset="CC-US" device="025-024X044" value="100p"/>
 <part name="R17" library="_common" deviceset="R" device="" value="1K"/>
-<part name="R21" library="_common" deviceset="R" device="" value="50K"/>
+<part name="R21" library="_common" deviceset="R" device="" value="56K"/>
 <part name="R20" library="_common" deviceset="3RP/1610G" device="" package3d_urn="urn:adsk.eagle:package:22728/1" value="50K LOG"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="R12" library="_common" deviceset="R" device="" value="20K"/>
 <part name="C20" library="_common" deviceset="CC-US" device="050-024X044" value="22n"/>
 <part name="R29" library="_common" deviceset="R" device="" value="1K"/>
-<part name="R32" library="_common" deviceset="R" device="" value="50K"/>
+<part name="R32" library="_common" deviceset="R" device="" value="56K"/>
 <part name="C21" library="_common" deviceset="CC-US" device="050-024X044" value="22n"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="R28" library="_common" deviceset="R" device="" value="20K"/>

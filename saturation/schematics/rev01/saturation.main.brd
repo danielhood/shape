@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -671,12 +671,12 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="8" x="49.53" y="-10.16" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="6.985" y="6.35" size="1.27" layer="27"/>
 </element>
-<element name="R8" library="_common" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K" x="33.02" y="3.81" smashed="yes">
+<element name="R8" library="_common" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K LOG" x="33.02" y="3.81" smashed="yes">
 <attribute name="NAME" x="24.765" y="9.525" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="8" x="90.17" y="-10.16" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="29.845" y="6.35" size="1.27" layer="27"/>
 </element>
-<element name="R12" library="_common" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K" x="55.88" y="3.81" smashed="yes">
+<element name="R12" library="_common" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K LOG" x="55.88" y="3.81" smashed="yes">
 <attribute name="NAME" x="47.625" y="9.525" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="8" x="77.47" y="-31.75" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="52.705" y="6.35" size="1.27" layer="27"/>
@@ -717,7 +717,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="54.102" y="12.954" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="48.514" y="14.6812" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R14" library="_common" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K" x="78.74" y="3.81" smashed="yes">
+<element name="R14" library="_common" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="200K LOG" x="78.74" y="3.81" smashed="yes">
 <attribute name="NAME" x="70.485" y="9.525" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="8" x="100.33" y="-10.16" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="81.915" y="6.35" size="1.27" layer="27"/>
