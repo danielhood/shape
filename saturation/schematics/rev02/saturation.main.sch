@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1270,9 +1270,9 @@ AMOUNT</text>
 <attribute name="NAME" x="113.03" y="79.629" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.03" y="77.47" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="7.62" y="88.9" smashed="yes" rot="MR180">
-<attribute name="NAME" x="1.651" y="92.71" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="3.81" y="92.71" size="1.778" layer="96" rot="MR270"/>
+<instance part="R5" gate="G$1" x="7.62" y="88.9" smashed="yes">
+<attribute name="NAME" x="1.651" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="3.81" y="85.09" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R8" gate="G$1" x="30.48" y="73.66" smashed="yes" rot="MR90">
 <attribute name="NAME" x="26.67" y="67.691" size="1.778" layer="95" rot="MR180"/>
@@ -1456,10 +1456,6 @@ AMOUNT</text>
 <pinref part="GND7" gate="1" pin="0V"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="E"/>
-<pinref part="GND6" gate="1" pin="0V"/>
-</segment>
-<segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="0V"/>
 </segment>
@@ -1506,6 +1502,10 @@ AMOUNT</text>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="GND11" gate="1" pin="0V"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="A"/>
+<pinref part="GND6" gate="1" pin="0V"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -1699,7 +1699,7 @@ AMOUNT</text>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-10.16" y1="93.98" x2="-5.08" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-10.16" y="93.98"/>
-<pinref part="R5" gate="G$1" pin="A"/>
+<pinref part="R5" gate="G$1" pin="E"/>
 <wire x1="-5.08" y1="93.98" x2="7.62" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-5.08" y="93.98"/>
 </segment>
@@ -1718,10 +1718,10 @@ AMOUNT</text>
 <net name="N$21" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="R5" gate="G$1" pin="S"/>
-<wire x1="12.7" y1="88.9" x2="15.24" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="D" pin="+IN"/>
 <wire x1="15.24" y1="88.9" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="S"/>
+<wire x1="12.7" y1="88.9" x2="15.24" y2="88.9" width="0.1524" layer="91"/>
 <junction x="15.24" y="88.9"/>
 </segment>
 </net>
